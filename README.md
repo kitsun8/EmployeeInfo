@@ -1,6 +1,7 @@
 # EmployeeInfo
-2011-2012 - An old school assignment, added to Github to store some of my starting points.
 ![alt text](https://github.com/kitsun8/EmployeeInfo/blob/master/screenshots/screenshot_Info.PNG)
+
+2013-2014 - An old school assignment, added to Github to store some of my starting points.
 
 
 # What it does

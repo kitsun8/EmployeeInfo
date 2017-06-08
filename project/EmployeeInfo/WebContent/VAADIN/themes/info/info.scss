@@ -1,0 +1,36 @@
+/* Import the reindeer theme.*/
+/* This only allows us to use the mixins defined in it and does not add any styles by itself. */
+@import "../reindeer/reindeer.scss";
+
+/* This contains all of your theme.*/
+/* If somebody wants to extend the theme she will include this mixin. */
+@mixin info {
+  /* Include all the styles from the reindeer theme */
+  @include reindeer;
+
+  /* Welcome text CSS */
+.welcome {
+text-align: center;
+}
+
+
+/* Form Layout CSS*/
+.v-formlayout {height: 40px; padding: 0px;}
+.v-formlayout .v-caption {padding: 0px}
+
+/* Columns in a field row. */
+.v-formlayout-contentcell {} /* Field content. */
+.v-formlayout-captioncell {text-align: left; width: 87px} /* Field caption. */
+.v-formlayout-errorcell {}   /* Field error indicator. */
+
+/* Overall style of field rows. */
+.v-formlayout-row {padding-bottom:0px;}
+
+ 
+/* Error indicator. */
+.v-formlayout-cell .v-errorindicator {}
+.v-formlayout-error-indicator .v-errorindicator {}
+
+
+padding-left: 20px; 
+}
